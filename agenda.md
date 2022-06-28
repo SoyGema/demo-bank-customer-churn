@@ -2,8 +2,6 @@
 
 ## Agenda
 
-
-
 - Intro: 
   - Example ML problem
   - DVC: data versioning, reproducible pipelines, and experiment tracking
@@ -11,7 +9,11 @@
   - Alternative to CLI
   - ML experimentation workflow into your IDE 
   - Interactive plots and tables for analyzing ML experiments
-  
+
+## Target Audience
+
+1. Train ML models: Data Scientists, ML Researchers, ML Engineers
+2. Deploy ML models: Software Engineers, MLOps or DevOps Engineers 
 
 ### Example ML problem
 ![](https://miro.medium.com/max/456/1*Dvx1j18vyKyvLlIpxzVSmQ.png)
