@@ -34,13 +34,18 @@ Dataset
 
 ### DVC
 
-- Data Versioning
-![](https://camo.githubusercontent.com/2e9f36da0d68a35ad70d4f7973471d1166b5c061792105efae3b914a41ced695/68747470733a2f2f6476632e6f72672f696d672f666c6f772e676966)
-*image source: https://github.com/iterative/dvc*
+![](https://miro.medium.com/max/700/1*gN7Xru3A-PTavPI6adpJPQ.png)
 
-- ML pipelines
-![](https://martinfowler.com/articles/cd4ml/ml-pipeline-1.png)
-*image source: https://martinfowler.com/articles/cd4ml.html*
+- **Experiment tracking**: Record training data, parameters, and metrics on top of Git. Navigate your experiments, compare their results, and find the best ML models.
 
-- Experiment Tracking
-![](https://dvc.org/img/graph.png)
+
+- **Visualization**: Plot performance data in a customizable dashboard including one or more overlaid experiments.
+
+
+- **Live tracking**: Capture and see metrics changing in real time.
+
+
+- **Reproducibility**: Make sure that anyone can recover or confirm previous experiments, and run new experiments based on their results.
+
+
+- **Data Management**: Handle and version large datasets, files, and models effectively right from VS Code.
