@@ -12,8 +12,9 @@
 
 ## Target Audience
 
-1. Train ML models: Data Scientists, ML Researchers, ML Engineers
-2. Deploy ML models: Software Engineers, MLOps or DevOps Engineers 
+1. Train ML models
+2. Deploy ML models
+3. Learn ML
 
 ### Example ML problem
 ![](https://miro.medium.com/max/456/1*Dvx1j18vyKyvLlIpxzVSmQ.png)
