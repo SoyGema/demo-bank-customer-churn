@@ -165,20 +165,20 @@ stages:
         train:
           models_dir: models
           model_fname: model.joblib
-          model_type: random-forest
+          model_type: lightgbm
           params:
             n_estimators: 200
             max_depth: 20
     outs:
     - path: eval_plots/cm.png
-      md5: cb4aad7a86c2a94a75f4b0efdd31f280
-      size: 7519
+      md5: d75099307ca5bd06cd37cec5a30235ad
+      size: 7373
     - path: eval_plots/plots/roc.json
-      md5: 24ee108d625bc31724b67ec39268241a
-      size: 100783
+      md5: 42b014ea287340e2de3e899a7c39af0b
+      size: 81047
     - path: metrics.json
-      md5: 7399cd2b362c01d00ec765321f303475
-      size: 67
+      md5: 1261150ecba20e1d79983e3cdfa6436b
+      size: 66
     - path: models/model.joblib
-      md5: 0d6a3fd144e85892e5f57973ef9a8a7b
-      size: 30340478
+      md5: 7404f2da4aebb93bba60e20a2d070e32
+      size: 675972
