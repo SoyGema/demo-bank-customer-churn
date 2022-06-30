@@ -140,8 +140,8 @@ stages:
       md5: 115003e1ec6e2c582c77ede535b0c84c
       size: 30337
     - path: data/Churn_Modelling.csv
-      md5: 73fba4fd85b6dbaf95c9d5e3836d3926
-      size: 684860
+      md5: eeb246011616f5a69f44f6037b2af506
+      size: 685746
     params:
       params.yaml:
         base:
@@ -171,14 +171,14 @@ stages:
             max_depth: 20
     outs:
     - path: eval_plots/cm.png
-      md5: d75099307ca5bd06cd37cec5a30235ad
-      size: 7373
+      md5: e7eaffbb8c3b0943ba12fda5bb3234b1
+      size: 8451
     - path: eval_plots/plots/roc.json
-      md5: 42b014ea287340e2de3e899a7c39af0b
-      size: 81047
+      md5: 88764f28b798dc0b2212539ce1b5346e
+      size: 77617
     - path: metrics.json
-      md5: 1261150ecba20e1d79983e3cdfa6436b
-      size: 66
+      md5: 7b08e52025ed55a896b8e8f01a57d19e
+      size: 65
     - path: models/model.joblib
-      md5: 7404f2da4aebb93bba60e20a2d070e32
-      size: 675972
+      md5: f5398583a2c128f854d44777f54c46eb
+      size: 675911
