@@ -11,3 +11,7 @@ matplotlib
 ipykernel
 notebook
 papermill
+seaborn
+pandas-profiling
+ipywidgets
+imbalanced-learn
