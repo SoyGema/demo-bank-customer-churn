@@ -167,18 +167,18 @@ stages:
           model_fname: model.joblib
           model_type: random-forest
           params:
-            n_estimators: 200
-            max_depth: 10
+            n_estimators: 150
+            max_depth: 15
     outs:
     - path: eval_plots/cm.png
-      md5: 315d5f6d096a4209f3151b1e673f11ac
-      size: 7949
+      md5: 937792c8051678c1991f45396f5aea76
+      size: 7968
     - path: eval_plots/plots/roc.json
-      md5: 127b225c07ad5de1e68fad1c2104cd9f
-      size: 83137
+      md5: 8da1fea604737e6e08e2669b2a7bc318
+      size: 85739
     - path: metrics.json
-      md5: cb07445760106615f8280435ff20ec5d
-      size: 136
+      md5: 16f1dbe915485470420b01459bb0464c
+      size: 138
     - path: models/model.joblib
-      md5: f375bfb78188c93b268ee1489d9fdab0
-      size: 11571518
+      md5: c2e38a3a251665c4aa0f6658a805bf83
+      size: 28861928
