@@ -23,5 +23,5 @@ train:
   model_fname: model.joblib
   model_type: random-forest
   params:
-    n_estimators: 350
-    max_depth: 100
+    n_estimators: 200
+    max_depth: 10
